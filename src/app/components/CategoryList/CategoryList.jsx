@@ -1,12 +1,13 @@
 import React from 'react'
-import styles from "./Navbar.module.css"
+import styles from "./categoryList.module.css"
 import Pagination from '../Pagination/Pagination'
 
-const Navbar = () => {
+const CategoryList = () => {
   return (
-    <div className={styles.container}>Navbar</div>
-    <Pagination/>
+    <div className={styles.container}>CategoryList</div>
+    
+    
   )
 }
 
-export default Navbar
+export default CategoryList
