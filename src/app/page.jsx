@@ -4,6 +4,7 @@ import CategoryList from "./components/CategoryList/CategoryList"
 import styles from "./homepage.module.css";
 import CardList from "./components/CardList/CardList";
 import Menu from "./components/Menu/Menu";
+import Footer from "./components/footer/Footer";
 
 
 export default function Home() {
@@ -14,7 +15,9 @@ export default function Home() {
       <div className={styles.content}>
         <CardList/>
         <Menu/>
+        
       </div>
+      
     </div>
   );
 }
