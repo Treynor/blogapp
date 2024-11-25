@@ -1,11 +1,9 @@
 "use client"
-
-
 import Link from "next/link"
 import styles from "./authLinks.module.css"
 import React, { useState } from 'react'
 
-const ThemeToggle = () => {
+const AuthLinks = () => {
 
   //temporary
   const status = "notauthenticated"
@@ -48,4 +46,4 @@ const ThemeToggle = () => {
 
 }
 
-export default ThemeToggle
+export default AuthLinks
