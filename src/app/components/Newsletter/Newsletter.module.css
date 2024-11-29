@@ -1,0 +1,99 @@
+.container {
+    display: flex; /* Enables flexbox layout */
+    justify-content: right; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    margin-top: 50px;
+    padding: 0; /* Removes any default padding */
+
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.title {
+    margin: 0;
+    text-align: right;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.email {
+    padding: 10px 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 300px;
+    max-width: 100%;
+}
+
+.submit {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .container {
+        justify-content: left;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+        .title {
+            font-size: 24px;
+        }
+
+        .email {
+            padding: 5px 3px;
+        }
+
+        .submit {
+            padding: 5px 8px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    
+        .title {
+            font-size: 16px;
+        }
+
+        .email {
+            width: 200px;
+        }
+
+        .submit {
+            padding: 3px 5px;
+        }
+}
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        
+        justify-content: center;
+    }
+    .newsletter {
+        flex-direction: column; /* Stacks children vertically */
+        align-items: center; /* Centers children horizontally */
+        gap: 15px; /* Adds spacing between stacked elements */
+        justify-content: center; /* Centers content vertically if needed */
+        text-align: center; /* Ensures text alignment is centered */
+    }
+
+    .email {
+        width: 100%; /* Makes input span full width */
+        max-width: 300px; /* Optional: Limit the maximum width */
+    }
+
+    .submit {
+        width: auto; /* Keeps button size appropriate */
+    }
+}

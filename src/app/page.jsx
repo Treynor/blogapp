@@ -5,6 +5,7 @@ import styles from "./homepage.module.css";
 import CardList from "./components/CardList/CardList";
 import Menu from "./components/Menu/Menu";
 import Footer from "./components/footer/Footer";
+import Newsletter from "./components/Newsletter/Newsletter";
 
 
 export default function Home() {
@@ -14,9 +15,11 @@ export default function Home() {
       <CategoryList />
       <div className={styles.content}>
         <CardList/>
+        
         <Menu/>
         
       </div>
+      <Newsletter/>
       
     </div>
   );
