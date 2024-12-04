@@ -38,7 +38,9 @@ const SinglePage = () => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iusto minima quidem, autem omnis nesciunt. Repellat, minima laboriosam a sunt beatae modi incidunt error esse eum sint in numquam dolores!</p>
 
             </div>
-            <div className={styles.comment}><Comments/></div>
+            <div className={styles.comment}>
+                <Comments/>
+              </div>
           </div>
           <Menu/>
         </div>
