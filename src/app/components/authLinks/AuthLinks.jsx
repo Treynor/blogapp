@@ -6,7 +6,7 @@ import React, { useState } from 'react'
 const AuthLinks = () => {
 
   //temporary
-  const status = "notauthenticated"
+  const status = "authenticated"
 
   const [open, setOpen ] = useState(false)
 

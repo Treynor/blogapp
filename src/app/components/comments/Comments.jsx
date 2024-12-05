@@ -12,7 +12,7 @@ const Comments = () => {
       <h1 className={styles.title}></h1>
       {status === "authenticated" ? (
           <div className={styles.write}>
-            <textarea placeholder='Comment...' className-={styles.input} />
+            <textarea placeholder='Comment...' className={styles.input} />
             <button className={styles.button}>Submit</button>
           </div>
         ) : (
