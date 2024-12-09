@@ -12,7 +12,7 @@ const SinglePage = () => {
           <h1 className={styles.title}>Lorum ipsum dolor it amet consectectur adipsiscing elit.</h1>
           <div className={styles.user}>
             <div className={styles.userImageContainer}>
-            <Image src="/p1.jpeg" alt="" fill className={styles.avatar}/>
+            <Image src="/p1.jpeg" alt="" fill className={styles.avatar} width={50} height={50}/>
             </div>
             <div className={styles.userTextContainer}>
               <span className={styles.username}>John Doe</span>
@@ -21,7 +21,7 @@ const SinglePage = () => {
           </div>
         </div>
         <div className={styles.imageContainer}>
-          <Image src="/p1.jpeg" alt="" fill className={styles.image}/>
+          <Image src="/p1.jpeg" alt="" fill className={styles.image} width={50} height={50}/>
         </div>
        
         </div>

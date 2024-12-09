@@ -15,7 +15,7 @@ const menuPosts = ({withImage}) => {
             <span className={`${styles.category} ${styles.travel}`}>Travel</span>
             
             <div className={styles.detail}>
-            <h3 classname={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
+            <h3 className={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
               <span className={styles.username}>Tony Reynolds</span>
               <span className={styles.date}> - 19.11.24</span>
             </div>
@@ -30,7 +30,7 @@ const menuPosts = ({withImage}) => {
             <span className={`${styles.category} ${styles.culture}`}>Culture</span>
             
             <div className={styles.detail}>
-            <h3 classname={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
+            <h3 className={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
               <span className={styles.username}>Tony Reynolds</span>
               <span className={styles.date}> - 19.11.24</span>
             </div>
@@ -45,7 +45,7 @@ const menuPosts = ({withImage}) => {
             <span className={`${styles.category} ${styles.food}`}>Food</span>
             
             <div className={styles.detail}>
-            <h3 classname={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
+            <h3 className={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
               <span className={styles.username}>Tony Reynolds</span>
               <span className={styles.date}> - 19.11.24</span>
             </div>
@@ -60,7 +60,7 @@ const menuPosts = ({withImage}) => {
             <span className={`${styles.category} ${styles.fashion}`}>Fashion</span>
             
             <div className={styles.detail}>
-            <h3 classname={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
+            <h3 className={styles.postTitle}>Lorem ipsum color sit amet consectetur adispcig</h3>
               <span className={styles.username}>Tony Reynolds</span>
               <span className={styles.date}> - 19.11.24</span>
             </div>
